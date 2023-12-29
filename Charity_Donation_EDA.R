@@ -1,7 +1,7 @@
 ## install library RODBC 
 
 library(RODBC)
-db = odbcConnect("mysql_server_64", uid="root", pwd="root")
+db = odbcConnect("mysql_server_XXX", uid="XXX", pwd="XXX")
 sqlQuery(db, "USE ma_charity_full")
 
 # abstracting the dataset(ma_charity_full) SQL
